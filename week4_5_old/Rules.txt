@@ -1,0 +1,105 @@
+The rules are:
+There are going to be three types of dangerous items
+    1. The item you get instantly kills you and you cannot continue
+    2. The item you use slowly drives you mad.
+        a. You become evil and win but you get the bad end. You become too powerful and kill everyone.
+        b. To not get to that ending your kindness needs to remain above level 0
+        c. There can be items that can help you regain your sanity
+    3. There are items that hurt you each time you use them
+
+there are three types of healing items:
+    1. The type that heals you when you get physical damage
+        a. this can be used 3 times
+    2. The type that restores your sanity
+        a. this can be used 3 times
+    3. There is one item that will restore your sanity and physical health to 100 if found and used
+        a. this can only be used once
+
+there are two other kinds of items:
+    1. An item that can either be used to trade once or be used to see a path
+    2. The item that acts as a key that once you get to a certain room allows you to escape the cave
+
+the game ends if:
+    1. You get to a room with the needed key, you win! good ending
+    2. You loose all sanity, you win! but it is a bad ending
+    3. You get caught by someone and then arrested, by either having nothing to offer or killing more than 6 soldiers. You loose!
+    4. You die by loosing all of your health. You loose!
+
+you get caught if:
+    1. you go in a room more than 10 times
+    2. if you use an item and don't leave the next turn
+
+the objective of the game is:
+    you are a wanted fugitive that has been wrongly framed for something they didn't do.
+    The only way to prove your innocence is to find someone that can only be found through passing through a cavern.
+    This cavern however is populated by the strongest leaders of the four most powerful races: Orcs, Merfolk, Dwarves, Elves.
+    You need to pass through this cavern without being caught and arrested or dying.
+
+First structure:
+    I need to first set up rooms for someone to be able to travel through:
+        The person needs to be able to see the room they are in
+        The person needs to see the rooms they can go to with the direction they need to go to, to get to those rooms
+        The person needs to be able to go to different rooms
+    I need a person to see items and pick up items:
+        I need the person to see the items for each room accordingly, each items need to be there and its properties(healing, key, energy etc.) stated
+        the person needs to be able to pick up an item
+            This should be removed from the respective room item
+        the person needs to be able to see their inventory
+        the person needs to be able to use an item
+        the person needs to be able to drop an item
+    I need to be able to add to a count, each time a person enters a room:
+        each time I enter (if its starting then +1 already) that room needs to have a count added
+            (use a map function and then each value for the key which will be a room has a value, the amount of times they entered a room)
+            (the map name should be entered)
+        If the count for that specific room they enter is 10 or more then they face an attack sequence (function)
+    I need two health bars for my character:
+        I need a health bar that starts at 100
+        I need a sanity bar that starts at 80
+    I need a menu option for the character:
+        When picking travel option:
+            To see both options (or only one if there is only one exit) for going into other rooms
+            See what room to enter with what direction they need to enter to get there
+            To see how many times the user entered each place they are able to go into
+        When picking item option:
+            They can see what items are available and their properties
+            They can pick up an item
+                They can only pick up an item if their inventory is less than 10
+            They can drop an item
+                They can only drop an item if their inventory is more than 0
+            They can use an item and a turn only happens if they use an item
+        What happens when they use an item:
+            Healing item increases health by 20
+            Sanity item increases sanity by 10
+            Madness item decreases sanity by 20
+                A new game function that has a loop happens until the user picks to go to a different room
+                In this loop an attack sequence is never called
+                which means the user remains hidden and no one will attack them until they move to a different room
+            Energy item will allow them to increase their powers and see paths to wherever they are to:
+                The key if they do not have the Key
+                The exit if they already have the key
+                In these paths they can see the amount of turns they have already in each room
+                Health decreases by 10
+    What is always visible:
+        Their inventory
+        Their health
+        Their sanity
+    What happens in an attack sequence:
+        A guard comes up to them is prepared to arrest them
+        The options are:
+            attack
+                If they attack then: they skilfully and quietly can kill the guard but your sanity goes down 10
+                a universal variable has a number added to it
+            Trade:
+                If you trade an item then you have sucessfuly bribed them
+                    A new game function that has a loop happens until the user picks to go to a different room
+            do nothing:
+                You are arrested and the game ends
+    What makes the game end:
+        If you kill more than 6 guards then it is game over as you have been found out
+            a kill count is used throught the entire game
+        If your sanity is 0 or less than 0
+        If your health is 0 or less than 0
+        If you are caught and you do nothing
+        You win the game if you get to the needed room and have the key
+            You need to make two things true, in room true and has key true
+        If the game ends there is a check, if you have no sanity or health then interesting last message pops up "Forever dead and killing. CURSED"

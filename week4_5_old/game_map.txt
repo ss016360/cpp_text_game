@@ -1,0 +1,27 @@
+Room of Tranquility|Library of Wisdom|north
+Room of Tranquility|Garden of Serenity|east
+Library of Wisdom|Room of Tranquility|south
+Library of Wisdom|Garden of Serenity|east
+Garden of Serenity|Room of Tranquility|west
+Garden of Serenity|Library of Wisdom|west
+
+Forge Hall|Treasure Vault|north
+Forge Hall|Feasting Hall|east
+Treasure Vault|Forge Hall|south
+Treasure Vault|Feasting Hall|east
+Feasting Hall|Forge Hall|west
+Feasting Hall|Treasure Vault|west
+
+Coral Sanctuary|Pearl Chamber|north
+Coral Sanctuary|Seaweed Garden|east
+Pearl Chamber|Coral Sanctuary|south
+Pearl Chamber|Seaweed Garden|east
+Seaweed Garden|Coral Sanctuary|west
+Seaweed Garden|Pearl Chamber|west
+
+Training Grounds|Shamanic Shrine|north
+Training Grounds|Feast Hall|east
+Shamanic Shrine|Training Grounds|south
+Shamanic Shrine|Feast Hall|east
+Feast Hall|Training Grounds|west
+Feast Hall|Shamanic Shrine|west

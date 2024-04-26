@@ -1,0 +1,15 @@
+Room of Tranquility; This room is adorned with intricate elven carvings and filled with soft, ethereal lighting. It serves as a sanctuary for meditation and relaxation, where elves come to find inner peace and commune with nature.
+Library of Wisdom; Rows of ancient tomes line the shelves of this room, filled with elven knowledge spanning centuries. Scholars and sages gather here to study history, magic, and philosophy.
+Garden of Serenity; Lush vegetation thrives in this underground chamber, illuminated by glowing crystals. Elves tend to exotic plants and flowers, cultivating a tranquil oasis in the depths of the earth.
+
+Forge Hall; The clang of hammers and the roar of furnaces fill this room, where dwarven smiths craft legendary weapons and armor. Magma flows through channels, providing heat for the mighty forges.
+Treasure Vault; Precious gems and gleaming gold fill the vault, protected by intricate traps and sturdy locks. Dwarven artisans come here to safeguard their most prized possessions and relics.
+Feasting Hall; Long tables stretch through this cavernous hall, laden with hearty food and barrels of ale. Dwarves gather here to celebrate victories, forge alliances, and honor their ancestors with boisterous revelry.
+
+Coral Sanctuary; Vibrant coral reefs adorn the walls of this underwater chamber, home to a myriad of colorful sea creatures. Merfolk gather here to commune with marine life and seek guidance from the wisdom of the ocean.
+Pearl Chamber; Shimmering pearls of all sizes adorn the seabed of this room, gathered by merfolk divers from the depths. The chamber serves as a treasury, storing the most valuable pearls and artifacts of the merfolk civilization.
+Seaweed Garden; Thick beds of swaying seaweed cover the floor of this chamber, providing sustenance and shelter for marine flora and fauna. Merfolk cultivate and harvest seaweed here for food, medicine, and crafting materials.
+
+Training Grounds; Rough-hewn stone pillars and wooden targets fill this room, where orc warriors hone their combat skills. The air is thick with the sound of grunts and the clash of weapons as they prepare for battle.
+Shamanic Shrine; Glowing runes and tribal totems decorate the walls of this sacred chamber, dedicated to the spirits and ancestors of the orcs. Shamans come here to commune with the spirit world and seek guidance through rituals and visions.
+Feast Hall; Roaring fires illuminate long tables laden with roasted meat and barrels of strong ale. Orcs gather here to feast, share stories of valor, and revel in the camaraderie of their tribe.
